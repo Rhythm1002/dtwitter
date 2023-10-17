@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "icp_react_starter_backend": {
+      "main": "src/icp_react_starter_backend/main.mo",
+      "type": "motoko"
+    },
+    "icp_react_starter_frontend": {
+      "dependencies": [
+        "icp_react_starter_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/icp_react_starter_frontend/src/index.html"
+      },
+      "source": [
+        "src/icp_react_starter_frontend/assets",
+        "dist/icp_react_starter_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
