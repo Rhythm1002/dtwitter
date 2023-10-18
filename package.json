@@ -1,12 +1,14 @@
 {
-    "name": "dkeeper_assets",
+    "name": "icp_react_starter",
     "version": "0.1.0",
-    "description": "Internet Computer starter application",
+    "description": "Internet Computer starter application with React",
+    "author": "Mustafa Siddique",
     "keywords": [
         "Internet Computer",
         "Motoko",
         "JavaScript",
-        "Canister"
+        "Canister",
+        "React"
     ],
     "scripts": {
         "build": "webpack",
