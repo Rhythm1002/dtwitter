@@ -1,4 +1,4 @@
-##  ICP-React-Starter
+##  ICP-React
 
   
 
